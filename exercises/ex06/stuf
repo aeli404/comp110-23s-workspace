@@ -1,0 +1,8 @@
+def battle_actions(moves: dict[str,int]):
+    print(moves)
+
+
+
+moves: dict[str, int] = {'f{MOJ_REDSQ}hit1{MOJ_REDSQ}':5, 'f{moj_orangesq}hit2{moj_orangesq}':10, 'f{moj_yellowsq}hit3{moj_yellowsq}':20, 'f{MOJ_GREENSQ}hit4{MOJ_GREENSQ}':30}
+
+print(battle_actions(moves))
